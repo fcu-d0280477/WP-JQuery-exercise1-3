@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>exercise2</title>
+<script src="jquery-3.1.1.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#one").click(function(){
+$("p:first").hide();
+});
+});
+
+$(document).ready(function(){
+$("#two").click(function(){
+$("#twotwo").hide();
+});
+});
+
+$(document).ready(function(){
+$("#three").click(function(){
+$(".threethree").hide();
+});
+});
+</script>
+</head>
+<body>
+<h2 class="test">Web Programong</h2>
+
+<p>Hide paragraph1.</p>
+<p id = "twotwo">Hide paragraph2.</p>
+<p class = "threethree">Hide paragraph3.</p>
+
+
+<button id = "one">Click me one</button>
+<button id = "two">Click me two</button>
+<button id = "three" >Click me three</button>
+</body>
+</html>

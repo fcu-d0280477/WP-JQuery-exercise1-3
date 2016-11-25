@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>exercise3</title>
+<script src="jquery-3.1.1.min.js">
+</script>
+<script>
+$(document).ready(function(){
+	$("#one").click(function(){
+		$("#doge").hide();
+	});
+});
+
+$(document).ready(function(){
+	$("#two").dblclick(function(){
+		$("#doge").show()();
+	});
+});
+
+$(document).ready(function(){
+	$("#three").mouseenter(function(){
+		$("#doge").hide(100);
+		alert("You haved touched doge!");
+	});
+});
+
+$(document).ready(function(){
+	$("#four").click(function(){
+		$("#doge").show(100);
+		 alert("hi!doge");
+	});
+});
+
+$(document).ready(function(){
+    $("#five").click(function(){
+        $("#doge").fadeOut();
+        
+    });
+});
+
+$(document).ready(function(){
+    $("#six").click(function(){
+        $("#doge").fadeIn();
+        
+    });
+});
+
+$(document).ready(function(){
+    $("#seven").click(function(){
+        $("#doge").fadeOut(3000);
+        
+    });
+});
+
+$(document).ready(function(){
+    $("#eight").click(function(){
+        $("#doge").fadeIn(3000);
+        
+    });
+});
+
+$(document).ready(function(){
+    $("#nine").click(function(){
+        
+        $("#doge").fadeToggle("slow");
+       
+    });
+});
+
+$(document).ready(function(){
+    $("#ten").click(function(){
+        $("#doge").fadeIn(3000);
+        
+    });
+});
+
+$(document).ready(function(){
+    $("#elven").click(function(){
+        
+        $("#doge").fadeTo("slow", 0.4);
+       
+    });
+});
+
+$(document).ready(function(){
+    $("#twelve").click(function(){
+        $("#doge").slideDown("5000");
+    });
+});
+
+$(document).ready(function(){
+	$("#back").click(function(){
+		$("#doge").hide();
+	});
+});
+
+$(document).ready(function(){
+	$("#back2").click(function(){
+		$("#doge").hide();
+	});
+});
+
+
+
+</script>
+</head>
+<body>
+
+
+
+<img id = "doge" name="doge" src="doge.png"  width="300" height = "180"  border="0" alt=""><br><br>
+
+<h1 id = "doge_w">doge!!</h1>
+
+
+<button id = "one">1. one click to hide</button><br><br>
+<button id = "two">2.double click to show</button><br><br>
+
+
+
+<button id = "five">3.doge out!</button><br><br>
+<button id = "six">4.doge in!</button><br><br>
+
+<button id = "seven">5.doge out again!(slow)</button><br><br>
+<button id = "eight">6.doge in again!(slow)</button><br><br>
+
+<button id = "nine">7.doge out for the third time!</button><br><br>
+
+<button id = "ten">8.doge in for the third time!</button><br><br>
+
+<button id = "elven">9.doge out?</button><br><br>
+<button id = "back">10.hide !</button><br><br>
+<button id = "twelve">11.doge !</button><br><br>
+<button id = "back2">12.hide !</button><br><br>
+
+</body>
+
+</html>
